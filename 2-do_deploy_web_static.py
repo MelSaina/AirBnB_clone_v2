@@ -8,7 +8,7 @@ from fabric.api import put, run, env
 from datetime import datetime
 from os.path import exists,isfile
 
-env.hosts = ['54.90.10.90', '3.85.177.221']
+env.hosts = ['52.86.203.247', '100.25.212.105']
 def do_deploy(archive_path):
     """Distributes an archive to a web server.
 
